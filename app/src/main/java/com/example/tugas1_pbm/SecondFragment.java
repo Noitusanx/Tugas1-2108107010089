@@ -20,12 +20,11 @@ public class SecondFragment extends Fragment {
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-
         binding = FragmentSecondBinding.inflate(inflater, container, false);
         return binding.getRoot();
-
     }
 
+    @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -43,5 +42,4 @@ public class SecondFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-
 }

@@ -68,6 +68,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="50dp"
             android:text="@string/simpan"
+            android:id="@+id/simpan"
             />
 
     </LinearLayout>
